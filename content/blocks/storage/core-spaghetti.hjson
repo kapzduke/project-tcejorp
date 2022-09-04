@@ -1,0 +1,10 @@
+localizedName: "Hotel: Spaghetti"
+type: coreBlock
+health: 9001
+size: 6
+itemCapacity: 15000
+unitCapModifier: 21
+researchCostMultiplier: 0.06
+category: effect
+//research: core-nucleus
+hidden: true

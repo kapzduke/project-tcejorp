@@ -1,6 +1,5 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: "tcejorp"
+displayName: "Project Tcejorp"
+author: "Kapzduke"
+description: "Adds planets or something."
+minGameVersion: 146

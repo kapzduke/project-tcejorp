@@ -1,0 +1,121 @@
+radius: 0.8
+minZoom: 0.7
+camRadius: 0
+parent: serpulo
+orbitRadius: 10
+bloom: true
+accessible: false
+alwaysUnlocked: false
+visible: false
+iconColor: 6A1FA8
+hasAtmosphere: true
+atmosphereColor: 6A1FA8
+atmosphereRadIn: 0.05
+atmosphereRadOut: 0.25
+updateLighting: true
+sectorSize: 2.5
+startSector: 4
+generator: AsteroidGenerator
+mesh: [
+  { 
+    //watars
+    type: NoiseMesh
+    radius: 0.733
+    color1: 353751
+    color2: 353751
+    scale: 1.3
+    octaves: 1
+    divisions: 6
+    mag: 1
+  }
+  {
+    //dark sand n' ferric stone
+    type: NoiseMesh
+    radius: 0.75
+    color1: 3C3838
+    color2: 453E3D
+    colorOct: 3.5
+    colorScale: 1.3
+    colorThreshold: 0.6
+    colorPersistence: 4
+    seed: 11132022
+    scale: 1.3
+    octaves: 6
+    divisions: 6
+    mag: 1.3333333333333333
+  }
+  {
+    //shal
+    type: NoiseMesh
+    radius: 0.722
+    color1: 3C3838
+    color2: 5C567A
+    colorOct: 3
+    colorScale: 1.2
+    colorThreshold: 0.5
+    colorPersistence: 4
+    seed: 11132022
+    scale: 1.3
+    octaves: 6
+    divisions: 6
+    mag: 1.7
+  }
+  {
+    //arkycite
+    type: NoiseMesh
+    radius: 0.735
+    color1: 323935
+    color2: 3F523D
+    colorScale: 1.2
+    colorPersistence: 3
+    colorOct: 3
+    colorThreshold: 0.7
+    seed: 10052022
+    scale: 0.7
+    octaves: 6
+    divisions: 6
+    mag: 1.45
+  }
+  {
+    //highkycite
+    type: NoiseMesh
+    radius: 0.715
+    color1: 323935
+    color2: 3F523D
+    colorScale: 1.2
+    colorPersistence: 6
+    colorOct: 3
+    colorThreshold: 0.3
+    seed: 10052022
+    scale: 0.7
+    octaves: 6
+    divisions: 6
+    mag: 1.7
+  }
+]
+cloudMesh: [
+  {
+  type: HexSkyMesh
+  color: 5D58A2d8
+  seed: 108000
+  speed: 0.12
+  scale: 0.66
+  radius: 0.175
+  octaves: 2.8
+  divisions: 5
+  thresh: 0.4
+  persistence: 1
+  }
+  {
+  type: HexSkyMesh
+  color: 936EB7a5
+  seed: 108
+  scale: 0.66
+  speed: 0.1
+  radius: 0.2
+  octaves: 2.8
+  divisions: 5
+  thresh: 0.4
+  persistence: 1
+  }
+]

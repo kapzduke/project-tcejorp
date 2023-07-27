@@ -75,22 +75,20 @@ mesh: [
 cloudMesh: [
   {
   type: HexSkyMesh
-  planet: sandros
-  color: DDB693
-  seed: 11132022
-  speed: 0.12
-  radius: 0.1
+  color: 4b449fd8
+  seed: 108000
+  speed: 0.07
+  radius: 0.74
   divisions: 5
   thresh: 0.35
   persistence: 0.2
   }
   {
   type: HexSkyMesh
-  planet: sandros
-  color: 8A5DD8
-  seed: 11132022
-  speed: 0.12
-  radius: 0.1
+  color: 895cd7a5
+  seed: 108
+  speed: 0.09
+  radius: 0.75
   divisions: 5
   thresh: 0.35
   persistence: 0.2

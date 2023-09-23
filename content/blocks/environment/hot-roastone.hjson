@@ -1,0 +1,5 @@
+type: Floor
+attributes: {
+  water: -1
+  heat: 0.5
+}

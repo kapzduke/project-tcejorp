@@ -1,6 +1,11 @@
 type: AttributeCrafter
+customShadow: true
+squareSprite: false
 scaledHealth: 60
 size: 5
+attribute: heat
+baseEfficiency: 0
+maxBoost: 2
 craftTime: 75
 liquidCapacity: 5
 requirements: [

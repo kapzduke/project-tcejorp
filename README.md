@@ -1,5 +1,6 @@
 # Project Tcejorp
 A mod that adds planets. Yeeaaaah.
+All and any things you see are subject to change.
 # The Main Balls of Dirt
 **Gaptika**
 

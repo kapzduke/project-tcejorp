@@ -1,0 +1,59 @@
+type: flying
+health: 60
+speed: 5.3
+rotateSpeed: 5
+drag: 0.11
+accel: 0.11
+hitSize: 8 
+flying: true
+mineSpeed: 8
+mineTier: 1
+mineRange: 50
+buildSpeed: 1.5
+itemCapacity: 30
+coreUnitDock: true
+targetable: false
+hittable: false
+isEnemy: false
+fogRadius: 0
+outlineColor: 1E222B
+weapons: [
+  {
+    type: RepairBeamWeapon
+    x: 0
+    y: 2.25
+    widthSinMag: 0.11
+    beamWidth: 0.7
+    targetUnits: false
+    targetBuildings: true
+    autoTarget: false
+    controllable: true
+    repairSpeed: 0.416666667
+    range: 60
+    rotate: false
+    laserColor: ffd37f
+    healColor: ffd37f
+    mirror: false
+    bullet: {
+      maxRange: 50
+    }
+  }
+]
+engines: [
+  {
+    x: 5
+    y: -0.8
+    rotation: 340
+    radius: 2
+  }
+  {
+    x: -5
+    y: -0.8
+    rotation: 160
+    radius: 2
+  }
+  {
+    y: -5.5
+    radius: 2.5
+  }
+]

@@ -2,3 +2,4 @@ cost: 2
 hardness: 7
 radioactivity: 1
 color: 766594
+hiddenOnPlanets: [serpulo, erekir, tcejorp-gaptika, tcejorp-xxxlxathioepee]

@@ -1,0 +1,27 @@
+type: AttributeCrafter
+scaledHealth: 60
+size: 5
+craftTime: 75
+liquidCapacity: 5
+requirements: [
+  beryllium/130
+  titanium/110
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    { //todo pull an elixias
+      type: DrawDefault
+    }
+  ]
+}
+hasPower: true
+hasLiquids: true
+ambientSound: "drill"
+consumes: {
+  liquid: {
+    liquid: water
+    amount: 0.25
+  }          
+}
+outputItems: [silicon/2, scrap/2]

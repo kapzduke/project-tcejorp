@@ -1,0 +1,5 @@
+type: Floor
+variants: 4
+attributes: {
+  water: -0.5
+}

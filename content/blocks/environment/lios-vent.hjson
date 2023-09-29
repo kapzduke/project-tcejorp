@@ -2,6 +2,6 @@ type: SteamVent
 parent: tcejorp-lios
 blendGroup: tcejorp-lios
 variants: 2
-attributes: {
+attributes {
   steam: 1
 }

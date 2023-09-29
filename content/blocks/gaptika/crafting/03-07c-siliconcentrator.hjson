@@ -14,6 +14,9 @@ requirements: [
 ]
 drawer: {
   type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
   drawers: [
     {
       type: DrawGlowRegion
@@ -23,37 +26,38 @@ drawer: {
     {
       type: DrawRegion
       suffix: -gear-teeth
-      rotateSpeed: 4
+      rotateSpeed: 6
       spinSprite: true
-      x: -4
-      y: -4
+      x: -8
+      y: -8
     }
     {
       type: DrawRegion
       suffix: -gear-teeth
-      rotateSpeed: 4
+      rotateSpeed: 6
       spinSprite: true
-      x: -4
-      y: 4
+      x: -8
+      y: 8
     }
     {
       type: DrawRegion
       suffix: -gear-teeth
-      rotateSpeed: 4
+      rotateSpeed: 6
       spinSprite: true
-      x: 4
-      y: 4
+      x: 8
+      y: 8
     }
     {
       type: DrawRegion
-      suffix: -gear-teeth
-      rotateSpeed: 4
-      spinSprite: true
-      x: 4
-      y: -4
     }
   ]
 }
+//craftEffect: [
+//  {
+//    type: mineImpact
+//      }
+//    }
+//  }
 hasPower: true
 hasLiquids: true
 ambientSound: "drill"

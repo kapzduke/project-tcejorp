@@ -3,5 +3,5 @@ parent: tcejorp-rhyolith
 blendGroup: tcejorp-rhyolith
 variants: 2
 attributes: {
-  steam/1
+  steam: 1
 }

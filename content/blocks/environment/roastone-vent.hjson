@@ -3,5 +3,5 @@ parent: tcejorp-roastone
 blendGroup: tcejorp-roastone
 variants: 2
 attributes: {
-  steam/1
+  steam: 1
 }

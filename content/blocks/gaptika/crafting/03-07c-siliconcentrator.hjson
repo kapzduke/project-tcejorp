@@ -15,8 +15,42 @@ requirements: [
 drawer: {
   type: DrawMulti
   drawers: [
-    { //todo pull an elixias
-      type: DrawDefault
+    {
+      type: DrawGlowRegion
+      color: ffb380
+      glowScale: 8
+    }
+    {
+      type: DrawRegion
+      suffix: -gear-teeth
+      rotateSpeed: 4
+      spinSprite: true
+      x: -4
+      y: -4
+    }
+    {
+      type: DrawRegion
+      suffix: -gear-teeth
+      rotateSpeed: 4
+      spinSprite: true
+      x: -4
+      y: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -gear-teeth
+      rotateSpeed: 4
+      spinSprite: true
+      x: 4
+      y: 4
+    }
+    {
+      type: DrawRegion
+      suffix: -gear-teeth
+      rotateSpeed: 4
+      spinSprite: true
+      x: 4
+      y: -4
     }
   ]
 }
@@ -24,6 +58,7 @@ hasPower: true
 hasLiquids: true
 ambientSound: "drill"
 consumes: {
+  power: 5
   liquid: {
     liquid: water
     amount: 0.25

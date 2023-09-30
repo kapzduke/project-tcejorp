@@ -49,6 +49,14 @@ drawer: {
     }
     {
       type: DrawRegion
+      suffix: -gear-teeth
+      rotateSpeed: 6
+      spinSprite: true
+      x: 8
+      y: -8
+    }
+    {
+      type: DrawRegion
     }
   ]
 }

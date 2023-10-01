@@ -1,0 +1,29 @@
+type: ItemTurret
+size: 3
+scaledHealth: 150
+targetAir: true
+targetGround: true
+rotateSpeed: 1.75
+recoil: 2.2
+recoilTime: 40
+reload: 40
+shoot: {
+  type: ShootMulti
+  source: {
+    type: ShootAlternate
+    spread: 8
+    shots: 2
+  }
+  dest: [
+    {
+      shots: 2
+      shotDelay: 8
+    }
+  ]
+}
+shootSound: shootBig
+ammoPerShot: 2
+ammoTypes: {
+  beryllium: {
+  }
+category: turrets

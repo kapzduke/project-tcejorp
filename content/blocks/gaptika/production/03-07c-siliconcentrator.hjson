@@ -11,8 +11,8 @@ boostScale: 0.16
 craftTime: 75
 liquidCapacity: 5
 requirements: [
-  beryllium/130
   titanium/110
+  beryllium/130
 ]
 drawer: {
   type: DrawMulti

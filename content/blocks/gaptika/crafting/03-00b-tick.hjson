@@ -42,6 +42,8 @@ drawer: {
     }
     {
     type: DrawGlowRegion
+    region: "tcejorp-03-00-base"
+    suffix: "-glow"
     color: 70d4af
     alpha: 0.5
     }

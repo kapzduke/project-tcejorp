@@ -25,7 +25,7 @@ drawer: {
     }
     {
       type: DrawBubbles
-      color: 71EAE9
+      color: 56b0ba
       sides: 9
       recurrence: 2
       spread: 4

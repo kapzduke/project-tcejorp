@@ -16,7 +16,6 @@ drawer: {
   drawers: [
     {
       type: DrawDefault
-      region: "tcejorp-03-00-base"
     }
     {
       type: DrawLiquidTile
@@ -34,7 +33,6 @@ drawer: {
     }
     {
     type: DrawRegion 
-    region: "tcejorp-03-00-base"
     suffix: "-top"
     }
     {
@@ -42,8 +40,7 @@ drawer: {
     }
     {
     type: DrawGlowRegion
-    region: "tcejorp-03-00-base"
-    suffix: "-glow"
+
     color: 70d4af
     alpha: 0.5
     }

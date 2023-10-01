@@ -1,0 +1,12 @@
+type: LiquidBridge
+scaledHealth: 60
+range: 6
+requirements: [
+  titanium/10
+  beryllium/15
+]
+arrowPeriod: 1
+arrowTimeScl: 3
+consumes: {
+  power: 0.08333333333333333
+}

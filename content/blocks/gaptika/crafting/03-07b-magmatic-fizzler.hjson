@@ -7,7 +7,7 @@ baseEfficiency: 0
 minEfficiency: 0.01
 maxBoost: 1
 boostScale: 0.0625
-craftTime: 75
+craftTime: 60
 liquidCapacity: 30
 requirements: [
   titanium/80
@@ -44,7 +44,7 @@ drawer: [
     {
     type: DrawGlowRegion
     color: 70d4af
-    alpha: 0.5
+    alpha: "0.5"
     }
   ]
 ]

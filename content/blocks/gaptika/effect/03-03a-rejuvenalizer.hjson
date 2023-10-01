@@ -1,0 +1,8 @@
+type: MendProjector
+scaledHealth: 60
+size: 3
+requirements: [
+  titanium/80
+  silicon/50
+  oxide/30
+]

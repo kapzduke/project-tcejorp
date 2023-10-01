@@ -27,4 +27,4 @@ ammoTypes: {
   beryllium: {
   }
 }
-category: turrets
+category: turret

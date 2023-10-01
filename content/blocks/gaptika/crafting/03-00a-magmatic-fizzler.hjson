@@ -6,7 +6,7 @@ attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.01
 maxBoost: 1
-boostScale: 0.0625
+boostScale: 0.2
 craftTime: 60
 liquidCapacity: 30
 requirements: [
@@ -30,7 +30,7 @@ drawer: {
     }
     {
       type: DrawBubbles
-      color: 596ab8
+      color: 7693e3
       sides: 10
       recurrence: 3
       spread: 6

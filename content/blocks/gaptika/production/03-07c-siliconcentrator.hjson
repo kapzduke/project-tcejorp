@@ -7,7 +7,7 @@ attribute: heat
 baseEfficiency: 0
 minEfficiency: 0.01
 maxBoost: 2
-boostScale: 0.04
+boostScale: 0.16
 craftTime: 75
 liquidCapacity: 5
 requirements: [

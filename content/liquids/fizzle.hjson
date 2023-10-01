@@ -1,0 +1,8 @@
+viscosity: 0.2
+explosiveness: 0.2
+boilingPoint: 0.2
+color: 71EAE9
+gasColor: FFFFFF
+barColor: 6FE8CD
+frames: 12
+frameTime: 0.1

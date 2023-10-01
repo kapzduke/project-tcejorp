@@ -14,7 +14,7 @@ requirements: [
   silicon/80
   beryllium/100
 ]
-drawer: [
+drawer: {
   type: DrawMulti
   iconOverride: [
     -icon
@@ -39,15 +39,15 @@ drawer: [
     }
     {
     type: DrawRegion 
-    suffix: -top
+    suffix: "-top"
     }
     {
     type: DrawGlowRegion
     color: 70d4af
-    alpha: "0.5"
+    alpha: 0.5
     }
   ]
-]
+}
 hasPower: true
 hasLiquids: true
 ambientSound: "electricHum"

@@ -2,6 +2,7 @@ type: GenericCrafter
 squareSprite: false
 scaledHealth: 60
 size: 2
+rotate: true
 liquidCapacity: 10
 liquidOutputDirections: [1]
 requirements: [

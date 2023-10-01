@@ -79,4 +79,4 @@ consumes: {
   }          
 }
 outputItems: [silicon/2, scrap/2]
-category: production
+category: crafting

@@ -26,4 +26,5 @@ ammoPerShot: 2
 ammoTypes: {
   beryllium: {
   }
+}
 category: turrets

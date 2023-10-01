@@ -5,7 +5,9 @@ scaledHealth: 60
 size: 5
 attribute: heat
 baseEfficiency: 0
+minEfficiency: 0.01
 maxBoost: 2
+boostScale: 0.04
 craftTime: 75
 liquidCapacity: 5
 requirements: [
@@ -77,3 +79,4 @@ consumes: {
   }          
 }
 outputItems: [silicon/2, scrap/2]
+category: production

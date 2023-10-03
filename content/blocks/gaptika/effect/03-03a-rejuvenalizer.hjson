@@ -6,3 +6,10 @@ requirements: [
   silicon/50
   oxide/30
 ]
+hasPower: true
+consumes: {
+  power: 1.5
+}
+reloadTime: 120
+healPercent: 5
+category: effect

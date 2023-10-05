@@ -6,5 +6,6 @@ requirements: [
   titanium/5
   beryllium/5
 ]
+liquidPadding: 0.75
 solid: false
 category: liquid

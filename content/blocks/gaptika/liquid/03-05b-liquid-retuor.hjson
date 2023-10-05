@@ -1,0 +1,8 @@
+type: LiquidRouter
+scaledHealth: 60
+liquidCapacity: 20
+requirements: [
+  titanium/5
+  beryllium/5
+]
+category: liquid

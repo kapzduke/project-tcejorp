@@ -1,5 +1,6 @@
 type: Floor
 blendGroup: tcejorp-roastone
+mapColor: 4e393a
 attributes: {
   water: -1
   heat: 0.5

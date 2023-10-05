@@ -1,4 +1,5 @@
 type: Floor
+mapColor: 593f35
 attributes: {
   water: -0.5
 }

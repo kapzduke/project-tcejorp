@@ -59,4 +59,5 @@ consumes: {
   }          
 }
 outputLiquid: ozone/0.6666666666666667
+envDisabled: 16
 category: crafting

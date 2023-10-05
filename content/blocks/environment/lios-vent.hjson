@@ -2,6 +2,7 @@ type: SteamVent
 parent: tcejorp-lios
 blendGroup: tcejorp-lios
 variants: 2
+mapColor: 3a201a
 attributes: {
   steam: 1
 }

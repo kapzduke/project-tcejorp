@@ -8,7 +8,7 @@ requirements: [
   silicon/40
   oxide/20
 ]
-pumpAmount: 0.3333333333333333
+pumpAmount: 0.16666666666666666
 consumes: {
   liquid: {
     liquid: hydrogen

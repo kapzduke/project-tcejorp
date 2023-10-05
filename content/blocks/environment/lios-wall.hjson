@@ -1,5 +1,6 @@
 type: StaticWall
 variants: 3
+mapColor: 87644a
 attributes: {
   sand: 0.5
 }

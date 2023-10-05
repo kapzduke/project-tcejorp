@@ -1,6 +1,7 @@
 type: Pump
 scaledHealth: 60
 size: 2
+squareSprite: false
 liquidCapacity: 20
 requirements: [
   titanium/40

@@ -12,7 +12,7 @@ pumpAmount: 0.3333333333333333
 consumes: {
   liquid: {
     liquid: hydrogen
-    amount: 0.06
+    amount: 0.016666666666666666
   }          
 }
 category: liquid

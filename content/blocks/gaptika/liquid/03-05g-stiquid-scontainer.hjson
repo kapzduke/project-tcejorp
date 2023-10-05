@@ -4,8 +4,9 @@ size: 2
 squareSprite: false
 liquidCapacity: 900
 requirements: [
-  titanium/50
-  oxide/20
+  titanium/70
+  oxide/40
 ]
+liquidPadding: 1
 solid: true
 category: liquid

@@ -1,5 +1,6 @@
 type: LiquidRouter
 scaledHealth: 60
+squareSprite: false
 liquidCapacity: 20
 requirements: [
   titanium/5

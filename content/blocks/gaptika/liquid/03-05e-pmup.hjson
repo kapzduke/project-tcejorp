@@ -1,0 +1,17 @@
+type: Pump
+scaledHealth: 60
+size: 2
+liquidCapacity: 20
+requirements: [
+  titanium/40
+  silicon/40
+  oxide/20
+]
+pumpAmount: 0.3333333333333333
+consumes: {
+  liquid: {
+    liquid: hydrogen
+    amount: 0.06
+  }          
+}
+category: liquid

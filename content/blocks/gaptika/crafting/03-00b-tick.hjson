@@ -60,4 +60,5 @@ consumes: {
   }          
 }
 outputLiquid: hydrogen/0.1
+envDisabled: 16
 category: crafting

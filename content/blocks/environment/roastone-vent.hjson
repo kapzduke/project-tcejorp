@@ -2,6 +2,7 @@ type: SteamVent
 parent: tcejorp-roastone
 blendGroup: tcejorp-roastone
 variants: 2
+mapColor: 261a1d
 attributes: {
   steam: 1
 }

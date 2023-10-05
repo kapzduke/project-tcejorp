@@ -1,0 +1,11 @@
+type: LiquidRouter
+scaledHealth: 60
+size: 2
+squareSprite: false
+liquidCapacity: 900
+requirements: [
+  titanium/50
+  oxide/20
+]
+solid: true
+category: liquid

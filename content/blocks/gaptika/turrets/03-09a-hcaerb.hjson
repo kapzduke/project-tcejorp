@@ -7,6 +7,22 @@ rotateSpeed: 1.75
 recoil: 2.2
 recoilTime: 40
 reload: 40
+heatColor: ab3400
+drawer: {
+  type: DrawTurret
+  basePrefix: "reinforced-"
+  parts: [
+    {
+      type: RegionPart
+      suffix: "-barrel"
+      mirror: true
+      under: true
+      progress: recoil
+      moveX: -2
+      moveY: -2
+      moveRot: -20
+    }
+]
 shoot: {
   type: ShootMulti
   source: {

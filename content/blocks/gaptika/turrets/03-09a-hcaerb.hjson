@@ -40,7 +40,6 @@ shoot: {
     5, -8, 0,
   ]
   shots: 2
-  ]
 }
 shootSound: shootBig
 ammoPerShot: 2

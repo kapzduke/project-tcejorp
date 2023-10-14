@@ -44,7 +44,7 @@ shoot: {
   shots: 2
 }
 shootSound: shootBig
-shootEffect: shootBigColor
+shootEffect: colorSparkBig
 ammoPerShot: 2
 ammoTypes: {
   beryllium: {

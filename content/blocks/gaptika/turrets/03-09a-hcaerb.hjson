@@ -14,7 +14,7 @@ drawer: {
   parts: [
     {
       type: RegionPart
-      suffix: "-barrel"
+      suffix: "-side"
       mirror: true
       under: true
       progress: recoil

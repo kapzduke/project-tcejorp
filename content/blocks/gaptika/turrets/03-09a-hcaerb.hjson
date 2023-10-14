@@ -16,9 +16,10 @@ drawer: {
       type: RegionPart
       suffix: "-side"
       mirror: true
-      under: true
+      layerOffset: 0
+      under: false
       progress: recoil
-      moveX: -2
+      moveX: 3
       moveY: -2
       moveRot: -20
     }
@@ -33,8 +34,7 @@ shoot: {
   }
   dest: [
     {
-      shots: 2
-      shotDelay: 8
+      shots: 1
     }
   ]
 }

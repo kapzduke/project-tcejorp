@@ -45,18 +45,18 @@ shoot: {
 }
 shootSound: shootBig
 shootEffect: colorSparkBig
-ammoPerShot: 2
+ammoPerShot: 3
 ammoTypes: {
   beryllium: {
-    ammoMultiplier: 5
+    ammoMultiplier: 3
     type: ContinuousFlameBulletType
     lifetime: 20
     drawFlare: false
     hitColor: 93DE7E
     damage: 35
-    knockback: 2
+    knockback: 3.33
     pierce: true
-    pierceArmor: false
+    pierceArmor: true
     width: 4
     length: 80
     colors: [3b8f65, 6ec179, 93de7e, ecffbf]

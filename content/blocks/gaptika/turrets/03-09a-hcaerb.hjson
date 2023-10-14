@@ -57,5 +57,6 @@ ammoTypes: {
     width: 4
     length: 60
     colors: [3b8f65, 6ec179, 93de7e, ecffbf]
+  }
 }
 category: turret

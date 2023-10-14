@@ -1,11 +1,13 @@
 type: ItemTurret
 size: 3
 scaledHealth: 150
+requirements: [ beryllium/70, titanium/30 ]
 targetAir: true
 targetGround: true
 rotateSpeed: 1.75
 recoil: 2.2
 recoilTime: 40
+range: 67.5
 reload: 40
 heatColor: ab3400
 drawer: {
@@ -36,12 +38,13 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   -5, -8, 0,
-    5, -8, 0,
+   -5, -12.5, 0,
+    5, -12.5, 0,
   ]
   shots: 2
 }
 shootSound: shootBig
+shootEffect: shootBigColor
 ammoPerShot: 2
 ammoTypes: {
   beryllium: {
@@ -50,12 +53,12 @@ ammoTypes: {
     lifetime: 20
     drawFlare: false
     hitColor: ffc9a2
-    damage: 20
+    damage: 35
     knockback: 2
     pierce: true
     pierceArmor: false
     width: 4
-    length: 60
+    length: 80
     colors: [3b8f65, 6ec179, 93de7e, ecffbf]
   }
 }

@@ -22,7 +22,8 @@ drawer: {
       moveY: -2
       moveRot: -20
     }
-]
+  ]
+}
 shoot: {
   type: ShootMulti
   source: {

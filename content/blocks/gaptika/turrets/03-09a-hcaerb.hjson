@@ -52,7 +52,7 @@ ammoTypes: {
     type: ContinuousFlameBulletType
     lifetime: 20
     drawFlare: false
-    hitColor: ffc9a2
+    hitColor: 93DE7E
     damage: 35
     knockback: 2
     pierce: true

@@ -1,0 +1,53 @@
+type: ItemTurret
+size: 3
+scaledHealth: 180
+requirements: [ beryllium/80, titanium/60 ]
+targetAir: true
+targetGround: false
+rotateSpeed: 1.9
+recoil: 2
+recoilTime: 30
+reload: 12
+heatColor: ab3400
+drawer: {
+  type: DrawTurret
+  basePrefix: "reinforced-"
+  parts: [
+    {
+      type: RegionPart
+      suffix: "-barrel"
+      mirror: false
+      layerOffset: 0
+      under: false
+      progress: recoil
+      moveX: 0
+      moveY: -2
+    }
+    {
+      type: RegionPart
+      suffix: "-top"
+      mirror: false
+      layerOffset: 0.01
+      under: false
+      outline: false
+    }
+  ]
+}
+shoot: {
+  type: ShootBarrel
+  barrels: [
+   4.5, -5, 0,
+   0, -3, 0,
+   -4.5, -5, 0,
+  ]
+  shots: 3
+}
+shootSound: shootBig
+shootEffect: shootBigColor
+ammoPerShot: 2
+ammoTypes: {
+  titanium: {
+    ammoMultiplier: 4
+  }
+}
+category: turret

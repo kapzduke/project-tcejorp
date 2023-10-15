@@ -36,18 +36,27 @@ drawer: {
 shoot: {
   type: ShootBarrel
   barrels: [
-   4.5, -5, 0,
+   5, -5, 0,
    0, -3, 0,
-   -4.5, -5, 0,
+   -5, -5, 0,
   ]
   shots: 3
 }
 shootSound: shootBig
 shootEffect: shootBigColor
+smokeEffect: shootSmokeDisperse
 ammoPerShot: 2
 ammoTypes: {
   titanium: {
-    ammoMultiplier: 4
+    ammoMultiplier: 3
+    damage: 30
+    speed: 8
+    width: 16
+    height: 16
+    shrinkY: 0.5
+    backSprite: large-bomb-back
+    sprite: mine-bullet
+    
   }
 }
 category: turret

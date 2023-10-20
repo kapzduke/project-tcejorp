@@ -1,0 +1,53 @@
+type: GenericCrafter
+squareSprite: false
+scaledHealth: 60
+size: 2
+liquidCapacity: 10
+requirements: [
+  titanium/30
+  silicon/30
+  beryllium/45
+]
+drawer: {
+  type: DrawMulti
+  iconOverride: [
+    -icon
+  ]
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: tcejorp-fizzle
+      padding: 2
+    }
+    {
+      type: DrawCrucibleFlame
+      flameColor: 93de7e
+    }
+    {
+    type: DrawRegion 
+    suffix: "-top"
+    }
+    {
+    type: DrawGlowRegion
+    color: 70d4af
+    alpha: 0.5
+    }
+  ]
+}
+conductivePower: true
+hasPower: true
+hasLiquids: true
+ambientSound: "electricHum"
+ambientSoundVolume: 0.125
+consumes: {
+  liquid: {
+    liquid: fizzle
+    amount: 0.15
+  }          
+}
+outputLiquid: ozone/0.06666666666666667
+envDisabled: 16
+category: crafting

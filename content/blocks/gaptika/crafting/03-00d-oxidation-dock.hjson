@@ -38,9 +38,8 @@ drawer: {
   ]
 }
 conductivePower: true
-hasPower: true
+hasPower: false
 hasLiquids: true
-ambientSound: "electricHum"
 ambientSoundVolume: 0.125
 consumes: {
   liquid: {
@@ -48,6 +47,4 @@ consumes: {
     amount: 0.15
   }          
 }
-outputLiquid: ozone/0.06666666666666667
-envDisabled: 16
 category: crafting

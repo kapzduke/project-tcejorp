@@ -1,5 +1,6 @@
 # Project Tcejorp
 A mod that adds planets. Yeeaaaah.
+
 All and any things you see are subject to change.
 # The Main Balls of Dirt
 **Gaptika**
@@ -18,7 +19,13 @@ The single-ore TD planet. High resource supplies and demands will make you use e
 
 ![icon-riniru](https://github.com/kapzduke/project-tcejorp/blob/master/icon-riniru.png)
 
-Extra-strict RTS. Plays the strongest role in mixtech.
+Extra-strict RTS. I don't know what to do with it tbh.
+
+**Ognadnaf**
+
+![icon-ognadnaf](https://github.com/kapzduke/project-tcejorp/blob/master/icon-ognadnaf.png)
+
+Moon of Gaptika. Very inconvenient gameplay, but plays the strongest role in mixtech.
 #
 **Xxxlxathioepee**
 

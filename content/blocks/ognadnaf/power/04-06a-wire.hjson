@@ -1,0 +1,17 @@
+type: PayloadLoader
+rotate: false
+hasItems: false
+hasLiquids: false
+size: 1
+maxBlockSize: 0
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+canOverdrive: false
+category: power
+requirements: [
+  zuluium/3
+  sentinelium/3
+  genium/3
+]

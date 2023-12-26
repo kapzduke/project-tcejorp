@@ -1,0 +1,7 @@
+type: DuctRouter
+requirements: [
+  niobium/5
+] 
+scaledHealth: 20
+speed: 0.95
+squareSprite: false

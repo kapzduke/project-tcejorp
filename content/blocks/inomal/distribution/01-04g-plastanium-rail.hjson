@@ -1,0 +1,11 @@
+type: StackConveyor
+requirements: [
+  niobium/2
+  hafnium/2
+  plastanium/1
+] 
+scaledHealth: 120
+speed: 0.08333333333333333
+itemCapacity: 10
+outputRouter: false
+underBullets: true

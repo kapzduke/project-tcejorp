@@ -1,0 +1,7 @@
+type: DuctBridge
+requirements: [
+  niobium/10
+] 
+scaledHealth: 20
+speed: 0.95
+squareSprite: false

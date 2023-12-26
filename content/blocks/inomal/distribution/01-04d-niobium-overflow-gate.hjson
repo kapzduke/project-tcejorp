@@ -1,0 +1,8 @@
+type: OverflowGate
+requirements: [
+  niobium/6
+  hafnium/4
+] 
+scaledHealth: 20
+itemCapacity: 1
+squareSprite: false

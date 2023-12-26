@@ -1,0 +1,8 @@
+type: AutoDoor
+requirements: [
+  hafnium/24
+  sodium/12
+]
+size: 2
+scaledHealth: 350
+category: defense

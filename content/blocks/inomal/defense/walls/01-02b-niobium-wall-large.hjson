@@ -1,0 +1,7 @@
+type: Wall
+requirements: [
+  niobium/24
+]
+size: 2
+scaledHealth: 200
+category: defense

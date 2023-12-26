@@ -1,0 +1,8 @@
+type: Wall
+requirements: [
+  niobium/3
+  plastanium/6
+]
+scaledHealth: 620
+insulated: true
+category: defense

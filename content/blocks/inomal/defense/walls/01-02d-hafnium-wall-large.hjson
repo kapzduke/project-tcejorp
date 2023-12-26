@@ -1,0 +1,7 @@
+type: Wall
+requirements: [
+  hafnium/24
+]
+size: 2
+scaledHealth: 360
+category: defense

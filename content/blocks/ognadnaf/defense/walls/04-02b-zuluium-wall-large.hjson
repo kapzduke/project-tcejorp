@@ -1,0 +1,7 @@
+type: Wall
+requirements: [
+  zuluium/36
+]
+size: 2
+scaledHealth: 780
+category: defense

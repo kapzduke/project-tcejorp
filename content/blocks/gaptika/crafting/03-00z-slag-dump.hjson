@@ -10,24 +10,14 @@ liquidCapacity: 10
   titanium/45
   silicon/15
 ]
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawDefault
-    }
-    {
-      type: DrawCrucibleFlame
-    }
-  ]
-}
-category: crafting
 effect: [
   {
-    particles: 5
+    particles: 4
     length: 10
-    sizeFrom: 0.6666666666666666
+    sizeFrom: 2
     sizeTo: 0
     lifeTime: 20
   } 
 ]
+category: crafting
+

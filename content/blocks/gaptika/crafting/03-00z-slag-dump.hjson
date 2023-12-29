@@ -1,0 +1,33 @@
+type: Incinerator
+squareSprite: false
+scaledHealth: 60
+size: 3
+attribute: slagginess
+minEfficiency: 5
+liquidCapacity: 10
+  requirements: [
+  beryllium/60
+  titanium/45
+  silicon/15
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+  ]
+}
+category: crafting
+effect: [
+  {
+    particles: 5
+    length: 10
+    sizeFrom: 0.6666666666666666
+    sizeTo: 0
+    lifeTime: 20
+  } 
+]

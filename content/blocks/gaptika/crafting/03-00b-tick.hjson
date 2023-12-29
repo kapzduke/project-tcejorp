@@ -50,7 +50,7 @@ drawer: {
 conductivePower: true
 hasPower: true
 hasLiquids: true
-ambientSound: "electricHum"
+ambientSound: "electricHum-2"
 ambientSoundVolume: 0.125
 consumes: {
   power: 0.25

@@ -2,8 +2,8 @@ type: Incinerator
 squareSprite: false
 scaledHealth: 60
 size: 3
-attribute: slagginess
-minEfficiency: 5
+attribute: heat
+minEfficiency: 6.8
 liquidCapacity: 10
   requirements: [
   beryllium/60

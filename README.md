@@ -1,3 +1,5 @@
+# Update: As of 18-11-2025 this mod has been cancelled, CANCELLED! Any items listed in this README file might not make it into the final mod.
+
 # Project Tcejorp
 A mod that adds planets. Yeeaaaah.
 
